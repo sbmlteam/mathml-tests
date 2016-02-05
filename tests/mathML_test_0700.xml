@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <times/>
+      <ci> a </ci>
+      <apply>
+        <gt/>
+        <ci> b </ci>
+        <ci> c </ci>
+      </apply>
+    </apply>
+    <annotation encoding="infix-input">a * (b &gt; c)</annotation>
+    <annotation encoding="infix-output">a * (b &gt; c)</annotation>
+  </semantics>
+</math>

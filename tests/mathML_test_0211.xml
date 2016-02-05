@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+  <semantics>
+    <cn sbml:units="unit" type="e-notation"> 1 <sep/> 3 </cn>
+    <annotation encoding="infix-input">1e3 unit</annotation>
+    <annotation encoding="infix-output-libsbml">1.000000e+003 unit</annotation>
+    <annotation encoding="infix-output-jsbml">1E3 unit</annotation>
+  </semantics>
+</math>

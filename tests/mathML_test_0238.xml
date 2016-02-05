@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <leq/>
+      <ci> a </ci>
+      <ci> b </ci>
+    </apply>
+    <annotation encoding="infix-input">a&lt;=b</annotation>
+    <annotation encoding="infix-output">a &lt;= b</annotation>
+  </semantics>
+</math>

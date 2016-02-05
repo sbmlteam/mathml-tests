@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <piecewise>
+      <piece>
+        <cn type="integer"> 0 </cn>
+        <cn type="integer"> 1 </cn>
+      </piece>
+      <piece>
+        <cn type="integer"> 1 </cn>
+        <cn type="integer"> 0 </cn>
+      </piece>
+      <piece>
+        <apply>
+          <minus/>
+          <cn type="integer"> 1 </cn>
+        </apply>
+        <cn type="integer"> 0 </cn>
+      </piece>
+    </piecewise>
+    <annotation encoding="infix-input">piecewise(0,1,1,0,-1,0)</annotation>
+    <annotation encoding="infix-output">piecewise(0, 1, 1, 0, -1, 0)</annotation>
+  </semantics>
+</math>

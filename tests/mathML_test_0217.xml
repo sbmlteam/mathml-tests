@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+  <semantics>
+    <cn sbml:units="unit" type="rational"> 3 <sep/> 4 </cn>
+    <annotation encoding="infix-input">(3/4) unit</annotation>
+    <annotation encoding="infix-output">(3/4) unit</annotation>
+  </semantics>
+</math>

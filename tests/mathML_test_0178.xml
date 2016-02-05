@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <root/>
+      <degree>
+        <cn type="integer"> 1 </cn>
+      </degree>
+      <cn type="integer"> 10 </cn>
+    </apply>
+    <annotation encoding="infix-input">root(1,10)</annotation>
+    <annotation encoding="infix-output">root(1, 10)</annotation>
+  </semantics>
+</math>

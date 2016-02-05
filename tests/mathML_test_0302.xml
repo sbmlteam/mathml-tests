@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <piecewise>
+      <piece>
+        <apply>
+          <minus/>
+          <apply>
+            <times/>
+            <ci> a </ci>
+            <ci> b </ci>
+          </apply>
+          <apply>
+            <times/>
+            <ci> c </ci>
+            <apply>
+              <ceiling/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> a </ci>
+                  <ci> b </ci>
+                </apply>
+                <ci> c </ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+        <apply>
+          <xor/>
+          <apply>
+            <lt/>
+            <apply>
+              <times/>
+              <ci> a </ci>
+              <ci> b </ci>
+            </apply>
+            <cn type="integer"> 0 </cn>
+          </apply>
+          <apply>
+            <lt/>
+            <ci> c </ci>
+            <cn type="integer"> 0 </cn>
+          </apply>
+        </apply>
+      </piece>
+      <otherwise>
+        <apply>
+          <minus/>
+          <apply>
+            <times/>
+            <ci> a </ci>
+            <ci> b </ci>
+          </apply>
+          <apply>
+            <times/>
+            <ci> c </ci>
+            <apply>
+              <floor/>
+              <apply>
+                <divide/>
+                <apply>
+                  <times/>
+                  <ci> a </ci>
+                  <ci> b </ci>
+                </apply>
+                <ci> c </ci>
+              </apply>
+            </apply>
+          </apply>
+        </apply>
+      </otherwise>
+    </piecewise>
+    <annotation encoding="infix-input">a * b % c</annotation>
+    <annotation encoding="infix-output">(a * b) % c</annotation>
+  </semantics>
+</math>

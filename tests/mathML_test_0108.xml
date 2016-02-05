@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <lambda>
+      <bvar>
+        <ci> x </ci>
+      </bvar>
+      <bvar>
+        <ci> y </ci>
+      </bvar>
+      <bvar>
+        <ci> z </ci>
+      </bvar>
+      <bvar>
+        <ci> p </ci>
+      </bvar>
+      <bvar>
+        <ci> d </ci>
+      </bvar>
+      <ci> q </ci>
+    </lambda>
+    <annotation encoding="infix-input">lambda(x,y,z,p,d,q)</annotation>
+    <annotation encoding="infix-output">lambda(x, y, z, p, d, q)</annotation>
+  </semantics>
+</math>

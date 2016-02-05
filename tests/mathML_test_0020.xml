@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <arccos/>
+      <cn type="integer"> 0 </cn>
+    </apply>
+    <annotation encoding="infix-input">arccos(0)</annotation>
+    <annotation encoding="infix-output">acos(0)</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+  <semantics>
+    <cn sbml:units="e" type="integer"> 1 </cn>
+    <annotation encoding="infix-input">1 e</annotation>
+    <annotation encoding="infix-output">1 e</annotation>
+  </semantics>
+</math>

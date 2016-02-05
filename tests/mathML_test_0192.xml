@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <ci> foo </ci>
+      <ci> a </ci>
+    </apply>
+    <annotation encoding="infix-input">foo(a)</annotation>
+    <annotation encoding="infix-output">foo(a)</annotation>
+  </semantics>
+</math>

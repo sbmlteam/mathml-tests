@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <lambda>
+      <cn type="integer"> 0 </cn>
+    </lambda>
+    <annotation encoding="infix-input">lambda(0)</annotation>
+    <annotation encoding="infix-output">lambda(0)</annotation>
+  </semantics>
+</math>

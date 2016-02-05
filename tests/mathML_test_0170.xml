@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <gt/>
+      <cn type="integer"> 0 </cn>
+      <cn type="integer"> 3 </cn>
+    </apply>
+    <annotation encoding="infix-input">Gt(0,3)</annotation>
+    <annotation encoding="infix-output">0 &gt; 3</annotation>
+  </semantics>
+</math>

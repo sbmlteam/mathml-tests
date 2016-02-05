@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <eq/>
+      <cn type="integer"> 0 </cn>
+      <cn type="integer"> 0 </cn>
+      <apply>
+        <minus/>
+        <cn type="integer"> 3 </cn>
+      </apply>
+    </apply>
+    <annotation encoding="infix-input">equals(0,0,-3)</annotation>
+    <annotation encoding="infix-output">0 == 0 == -3</annotation>
+  </semantics>
+</math>

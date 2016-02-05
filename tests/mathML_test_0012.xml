@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <csymbol encoding="text" definitionURL="http://www.sbml.org/sbml/symbols/time"> time </csymbol>
+    <annotation encoding="infix-input">time</annotation>
+    <annotation encoding="infix-output">time</annotation>
+  </semantics>
+</math>

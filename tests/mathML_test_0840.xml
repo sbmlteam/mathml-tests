@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <ci> f </ci>
+      <apply>
+        <divide/>
+        <ci> b </ci>
+        <ci> a </ci>
+      </apply>
+    </apply>
+    <annotation encoding="infix-input">f(b/a)</annotation>
+    <annotation encoding="infix-output">f(b / a)</annotation>
+  </semantics>
+</math>

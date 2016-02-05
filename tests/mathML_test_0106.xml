@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <piecewise>
+      <piece>
+        <false/>
+        <true/>
+      </piece>
+      <piece>
+        <true/>
+        <false/>
+      </piece>
+      <piece>
+        <true/>
+        <false/>
+      </piece>
+    </piecewise>
+    <annotation encoding="infix-input">piecewise(false,true,true,false,true,false)</annotation>
+    <annotation encoding="infix-output">piecewise(false, true, true, false, true, false)</annotation>
+  </semantics>
+</math>

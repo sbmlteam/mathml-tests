@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <piecewise>
+      <otherwise>
+        <cn type="integer"> 0 </cn>
+      </otherwise>
+    </piecewise>
+    <annotation encoding="infix-input">Piecewise(0)</annotation>
+    <annotation encoding="infix-output">piecewise(0)</annotation>
+  </semantics>
+</math>

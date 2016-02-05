@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <geq/>
+      <apply>
+        <not/>
+        <ci> a </ci>
+      </apply>
+      <ci> b </ci>
+    </apply>
+    <annotation encoding="infix-input">!a&gt;=b</annotation>
+    <annotation encoding="infix-output">(!a) &gt;= b</annotation>
+  </semantics>
+</math>

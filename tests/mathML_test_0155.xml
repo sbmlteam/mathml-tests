@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <root/>
+      <degree>
+        <cn type="integer"> 2 </cn>
+      </degree>
+      <cn type="integer"> 0 </cn>
+    </apply>
+    <annotation encoding="infix-input">Sqrt(0)</annotation>
+    <annotation encoding="infix-output">sqrt(0)</annotation>
+  </semantics>
+</math>

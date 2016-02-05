@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <or/>
+      <ci> a </ci>
+      <ci> b </ci>
+      <ci> c </ci>
+      <ci> d </ci>
+      <ci> e </ci>
+    </apply>
+    <annotation encoding="infix-input">or(a,b,c,d,e)</annotation>
+    <annotation encoding="infix-output">a || b || c || d || e</annotation>
+  </semantics>
+</math>

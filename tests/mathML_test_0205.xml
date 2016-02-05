@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <divide/>
+      <cn> 3.2 </cn>
+      <cn type="integer"> 4 </cn>
+    </apply>
+    <annotation encoding="infix-input">(3.2/4)</annotation>
+    <annotation encoding="infix-output">3.2 / 4</annotation>
+  </semantics>
+</math>

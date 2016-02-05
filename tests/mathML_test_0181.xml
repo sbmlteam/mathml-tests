@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <plus/>
+    </apply>
+    <annotation encoding="infix-input">plus()</annotation>
+    <annotation encoding="infix-output">plus()</annotation>
+  </semantics>
+</math>

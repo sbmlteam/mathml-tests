@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <log/>
+      <logbase>
+        <cn type="integer"> 1 </cn>
+      </logbase>
+      <cn type="integer"> 2 </cn>
+    </apply>
+    <annotation encoding="infix-input">Log(1,2)</annotation>
+    <annotation encoding="infix-output">log(1, 2)</annotation>
+  </semantics>
+</math>

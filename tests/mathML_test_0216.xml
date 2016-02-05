@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML" xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+  <semantics>
+    <apply>
+      <minus/>
+      <cn sbml:units="unit" type="integer"> 3 </cn>
+    </apply>
+    <annotation encoding="infix-input">- 3 unit</annotation>
+    <annotation encoding="infix-output">-3 unit</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <power/>
+      <cn type="integer"> 1 </cn>
+      <cn type="integer"> 2 </cn>
+    </apply>
+    <annotation encoding="infix-input">power(1,2)</annotation>
+    <annotation encoding="infix-output">1^2</annotation>
+  </semantics>
+</math>

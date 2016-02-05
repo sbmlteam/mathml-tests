@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <cn type="e-notation"> 1 <sep/> -3 </cn>
+    <annotation encoding="infix-input">1e-3</annotation>
+    <annotation encoding="infix-output-libsbml">1.000000e-003</annotation>
+    <annotation encoding="infix-output-jsbml">1E-3</annotation>
+  </semantics>
+</math>

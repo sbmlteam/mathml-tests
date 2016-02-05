@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <and/>
+      <apply>
+        <leq/>
+        <ci> a </ci>
+        <ci> b </ci>
+      </apply>
+      <apply>
+        <geq/>
+        <ci> b </ci>
+        <ci> c </ci>
+      </apply>
+    </apply>
+    <annotation encoding="infix-input">(a &lt;= b) &gt;= c</annotation>
+    <annotation encoding="infix-output">(a &lt;= b) &amp;&amp; (b &gt;= c)</annotation>
+  </semantics>
+</math>

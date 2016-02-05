@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <minus/>
+      <ci> a </ci>
+      <apply>
+        <and/>
+        <ci> b </ci>
+        <ci> c </ci>
+      </apply>
+    </apply>
+    <annotation encoding="infix-input">a - (b &amp;&amp; c)</annotation>
+    <annotation encoding="infix-output">a - (b &amp;&amp; c)</annotation>
+  </semantics>
+</math>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <apply>
+      <lt/>
+      <piecewise>
+        <piece>
+          <apply>
+            <minus/>
+            <ci> a </ci>
+            <apply>
+              <times/>
+              <ci> b </ci>
+              <apply>
+                <ceiling/>
+                <apply>
+                  <divide/>
+                  <ci> a </ci>
+                  <ci> b </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+          <apply>
+            <xor/>
+            <apply>
+              <lt/>
+              <ci> a </ci>
+              <cn type="integer"> 0 </cn>
+            </apply>
+            <apply>
+              <lt/>
+              <ci> b </ci>
+              <cn type="integer"> 0 </cn>
+            </apply>
+          </apply>
+        </piece>
+        <otherwise>
+          <apply>
+            <minus/>
+            <ci> a </ci>
+            <apply>
+              <times/>
+              <ci> b </ci>
+              <apply>
+                <floor/>
+                <apply>
+                  <divide/>
+                  <ci> a </ci>
+                  <ci> b </ci>
+                </apply>
+              </apply>
+            </apply>
+          </apply>
+        </otherwise>
+      </piecewise>
+      <ci> c </ci>
+    </apply>
+    <annotation encoding="infix-input">a % b &lt; c</annotation>
+    <annotation encoding="infix-output">(a % b) &lt; c</annotation>
+  </semantics>
+</math>
