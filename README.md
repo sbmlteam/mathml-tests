@@ -23,10 +23,10 @@ Note that libsbml contains options in its infix parser to change how it parses c
 * 'log(x)' is always parsed as the natural log of x.
 * Unary minuses ('-5', '--5', etc.) are not collapsed, and will always appear in the MathML with the '<minus>' element:
 
-    <apply>
-      <minus/>
-      <cn type="integer"> 3 </cn>
-    </apply>
+      <apply>
+        <minus/>
+        <cn type="integer"> 3 </cn>
+      </apply>
 
 instead of:
 
