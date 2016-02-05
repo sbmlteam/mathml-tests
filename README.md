@@ -21,7 +21,7 @@ If libsbml and jsbml produce different (but correct) infix output from this Math
 Note that libsbml contains options in its infix parser to change how it parses certain input.  None of these options are tested here, and the defaults are used throughout.  In particular, this means:
 
 * 'log(x)' is always parsed as the natural log of x.
-* Unary minuses ('-5', '--5', etc.) are not collapsed, and will always appear in the MathML with the '<minus>' element:
+* Unary minuses ('-5', '--5', etc.) are not collapsed, and will always appear in the MathML with the '&lt;minus>' element:
 
       &lt;apply>
         &lt;minus/>
