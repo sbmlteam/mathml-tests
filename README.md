@@ -3,7 +3,7 @@ mathml-tests
 
 *Authors*:      [Lucian Smith](https://github.com/luciansmith).
 
-*License*:      This code is licensed under the LGPL version 2.1.  Please see the file [../LICENSE.txt](https://raw.githubusercontent.com/sbmlteam/mathml-tests/master/LICENSE.txt) for details.
+*License*:      This code is licensed under the LGPL version 2.1.  Please see the file [LICENSE.txt](https://raw.githubusercontent.com/sbmlteam/mathml-tests/master/LICENSE.txt) for details.
 
 *Repository*:   [https://github.com/sbmlteam/mathml-tests](https://github.com/sbmlteam/mathml-tests)
 
@@ -35,14 +35,16 @@ Note that [libSBML](http://sbml.org/Software/libSBML) contains options in its in
 * `log(x)` is always parsed as the natural log of x.
 * Unary minuses (`-5`, `--5`, etc.) are not collapsed, and will always appear in the MathML with the `&lt;minus>` element:
 
+```
       &lt;apply>
         &lt;minus/>
         &lt;cn type="integer"> 3 </cn>
       &lt;/apply>
-
+```
 instead of:
-
+```
       <cn type="integer"> -3 </cn>
+```
 
 * Numerical values followed by a string are parsed as that value, with units of the string (`"5 mL"`).
 * The string `"avogadro"` is parsed as the SMBL Level 3 _csymbol_ 'avogadro'.
