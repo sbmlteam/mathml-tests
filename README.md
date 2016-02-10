@@ -25,10 +25,10 @@ If both [libSBML](http://sbml.org/Software/libSBML) and [JSBML](http://sbml.org/
 
     <annotation encoding="infix-output">a</annotation>
 
-If [libSBML](http://sbml.org/Software/libSBML) and [JSBML](http://sbml.org/Software/JSBML) produce different (but correct) infix output from this MathML, each output will be included as a separate annotation, the first with the encoding 'infix-output-[libSBML](http://sbml.org/Software/libSBML)', and the second with the encoding 'infix-output-[JSBML](http://sbml.org/Software/JSBML)':
+If [libSBML](http://sbml.org/Software/libSBML) and [JSBML](http://sbml.org/Software/JSBML) produce different (but correct) infix output from this MathML, each output will be included as a separate annotation, the first with the encoding 'infix-output-libsbml', and the second with the encoding 'infix-output-jsbml':
 
-    <annotation encoding="infix-output-[libSBML](http://sbml.org/Software/libSBML)">1.000000e+003</annotation>
-    <annotation encoding="infix-output-[JSBML](http://sbml.org/Software/JSBML)">1E3</annotation>
+    <annotation encoding="infix-output-libsbml">1.000000e+003</annotation>
+    <annotation encoding="infix-output-jsbml">1E3</annotation>
 
 Note that [libSBML](http://sbml.org/Software/libSBML) contains options in its infix parser to change how it parses certain input.  None of these options are tested here, and the defaults are used throughout.  In particular, this means:
 
