@@ -36,10 +36,10 @@ Note that [libSBML](http://sbml.org/Software/libSBML) contains options in its in
 * Unary minuses (`-5`, `--5`, etc.) are not collapsed, and will always appear in the MathML with the `&lt;minus>` element:
 
 ```
-      &lt;apply>
-        &lt;minus/>
-        &lt;cn type="integer"> 3 </cn>
-      &lt;/apply>
+      <apply>
+        <minus/>
+        <cn type="integer"> 3 </cn>
+      </apply>
 ```
 instead of:
 ```
