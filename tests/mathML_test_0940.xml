@@ -9,6 +9,6 @@
       </apply>
     </apply>
     <annotation encoding="infix-input">-(!a)</annotation>
-    <annotation encoding="infix-output">-!a</annotation>
+    <annotation encoding="infix-output">-(!a)</annotation>
   </semantics>
 </math>

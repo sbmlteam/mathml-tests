@@ -1,4 +1,4 @@
-Infix input	MathML Output	Infix output	JSBML Infix output (if different)
+Infix input	MathML output	Infix output	JSBML infix output (if different)
 'a	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <ci> a </ci></math>	'a
 'ExponentialE	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <exponentiale/></math>	'exponentiale
 'exponentiale	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <exponentiale/></math>	'exponentiale
@@ -870,10 +870,10 @@ Infix input	MathML Output	Infix output	JSBML Infix output (if different)
 'a||-b	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <or/>    <ci> a </ci>    <apply>      <minus/>      <ci> b </ci>    </apply>  </apply></math>	'a || -b
 '--a	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <minus/>    <apply>      <minus/>      <ci> a </ci>    </apply>  </apply></math>	'--a
 '+-a	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <minus/>    <ci> a </ci>  </apply></math>	'-a
-'!-a	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <not/>    <apply>      <minus/>      <ci> a </ci>    </apply>  </apply></math>	'!-a
+'!-a	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <not/>    <apply>      <minus/>      <ci> a </ci>    </apply>  </apply></math>	'!(-a)
 '-(-a)	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <minus/>    <apply>      <minus/>      <ci> a </ci>    </apply>  </apply></math>	'--a
 '+(-a)	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <minus/>    <ci> a </ci>  </apply></math>	'-a
-'!(-a)	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <not/>    <apply>      <minus/>      <ci> a </ci>    </apply>  </apply></math>	'!-a
+'!(-a)	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <not/>    <apply>      <minus/>      <ci> a </ci>    </apply>  </apply></math>	'!(-a)
 '-a+b	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <plus/>    <apply>      <minus/>      <ci> a </ci>    </apply>    <ci> b </ci>  </apply></math>	'-a + b
 '-a-b	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <minus/>    <apply>      <minus/>      <ci> a </ci>    </apply>    <ci> b </ci>  </apply></math>	'-a - b
 '-a*b	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <times/>    <apply>      <minus/>      <ci> a </ci>    </apply>    <ci> b </ci>  </apply></math>	'-a * b
@@ -936,10 +936,10 @@ Infix input	MathML Output	Infix output	JSBML Infix output (if different)
 'a!=!b	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <neq/>    <ci> a </ci>    <apply>      <not/>      <ci> b </ci>    </apply>  </apply></math>	'a != !b
 'a&&!b	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <and/>    <ci> a </ci>    <apply>      <not/>      <ci> b </ci>    </apply>  </apply></math>	'a && !b
 'a||!b	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <or/>    <ci> a </ci>    <apply>      <not/>      <ci> b </ci>    </apply>  </apply></math>	'a || !b
-'-!a	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <minus/>    <apply>      <not/>      <ci> a </ci>    </apply>  </apply></math>	'-!a
+'-!a	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <minus/>    <apply>      <not/>      <ci> a </ci>    </apply>  </apply></math>	'-(!a)
 '+!a	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <not/>    <ci> a </ci>  </apply></math>	'!a
 '!!a	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <not/>    <apply>      <not/>      <ci> a </ci>    </apply>  </apply></math>	'!!a
-'-(!a)	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <minus/>    <apply>      <not/>      <ci> a </ci>    </apply>  </apply></math>	'-!a
+'-(!a)	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <minus/>    <apply>      <not/>      <ci> a </ci>    </apply>  </apply></math>	'-(!a)
 '+(!a)	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <not/>    <ci> a </ci>  </apply></math>	'!a
 '!(!a)	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <not/>    <apply>      <not/>      <ci> a </ci>    </apply>  </apply></math>	'!!a
 '!a+b	<?xml version="1.0" encoding="UTF-8"?><math xmlns="http://www.w3.org/1998/Math/MathML">  <apply>    <plus/>    <apply>      <not/>      <ci> a </ci>    </apply>    <ci> b </ci>  </apply></math>	'!a + b
