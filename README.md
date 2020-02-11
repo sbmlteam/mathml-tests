@@ -51,6 +51,12 @@ instead of:
 * All parsing of built-in functions and constants is case-insensitive.
 
 
+⁇ Getting help and support
+--------------------------
+
+If you find an issue, please submit it in [the GitHub issue tracker](https://github.com/sbmlteam/mathml-tests/issues) for this repository.  Alternatively, you are welcome to contact the author or the SBML Team [via email](mailto:sbml-team@googlegroups.com) with questions.
+
+
 Copyright and license
 ---------------------
 
