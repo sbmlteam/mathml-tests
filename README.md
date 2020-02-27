@@ -1,4 +1,4 @@
-mathml-tests
+mathml-tests<img width="14%" align="right" src=".graphics/sbml-badge.svg">
 ============
 
 *Authors*:      [Lucian Smith](https://github.com/luciansmith).
@@ -49,3 +49,33 @@ instead of:
 * Numerical values followed by a string are parsed as that value, with units of the string (`"5 mL"`).
 * The string `"avogadro"` is parsed as the SMBL Level 3 _csymbol_ 'avogadro'.
 * All parsing of built-in functions and constants is case-insensitive.
+
+
+Getting help and support
+------------------------
+
+If you find an issue, please submit it in [the GitHub issue tracker](https://github.com/sbmlteam/mathml-tests/issues) for this repository.  Alternatively, you are welcome to contact the author or the SBML Team [via email](mailto:sbml-team@googlegroups.com) with questions.
+
+
+Copyright and license
+---------------------
+
+These files are distributed freely under the terms of the LGPL.  Please see the file [LICENSE.txt](LICENSE.txt) for more copyright and license details.
+
+
+Acknowledgments
+---------------
+
+Funding for this and other SBML work has come from the [National Institute of General Medical Sciences](https://www.nigms.nih.gov) via grant NIH R01&nbsp;GM070923 (Principal Investigator: Michael Hucka).
+
+<br>
+<div align="center">
+  <a href="https://www.nigms.nih.gov">
+    <img valign="middle"  height="100" src=".graphics/US-NIH-NIGMS-Logo.svg">
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.caltech.edu">
+    <img valign="middle" height="130" src=".graphics/caltech-round.png">
+  </a>
+</div>
